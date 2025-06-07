@@ -1,0 +1,4 @@
+-> hyperlink: it is the process to navigate from one page into another
+anchor tag (<a> tag)
+    ->attributes
+        href

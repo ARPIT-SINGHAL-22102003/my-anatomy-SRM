@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h2>Form Example</h2>
+    <form action="">
+        <!-- text field -->
+         Name: <input type="text" placeholder="Enter name">
+         <br>
+         Password: <input type="password">
+         <br>
+         <!-- radio button only one select at a time -->
+          Gender: <input type="radio" name="gen" value="male"> male
+          <input type="radio" name="gen" value="female">female
+          <br>
+          <!-- check box: we can select multiple options -->
+           Hobbies: <input type="checkbox" value="tt"> TT 
+           <input type="checkbox" value="cricket"> cricket
+           <input type="checkbox" value="football"> football
+           <br>
+           <!-- dropdown or select -->
+            City: <select>
+                <option>Noida</option>
+                <option>Delhi</option>
+                <option>Gurugram</option>
+            </select>
+            <br>
+            Upload: <input type="file">
+            <br>
+            Age: <input type="number">
+            <br>
+            DOB: <input type="date">
+            <br>
+            Color:  <input type="color">
+            <br>
+            Remarks: <textarea></textarea><br/>
+            <input type="submit" value="Submit" />
+            <input type="reset" value="Reset"/>
+            <input type="button" value="Click"/>
+    </form>
+</body>
+</html>
+
+<!-- 
+Forms: Collection of fields like textbox, radio, checkbox, etc
+    <form></form>
+
+    action attribute: The action attribute in the <form> tag specifies the URL or path where the form data should be sent when the form is submitted
+-->

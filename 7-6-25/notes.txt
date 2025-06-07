@@ -1,0 +1,98 @@
+css-> stands for cascading style sheet. It is used for describing the presentation (look and feel) of the web page.
+
+extension : .css
+then link that css file in our web page with the link tag
+
+types of style:
+1. inline
+    -> <div style=""></div
+2. internal
+    -> define in head section with style tag.
+        <style>
+            ---
+        </style>
+3. external(css)
+    -> creating a style.css and home.html and in that html file
+    <html>
+        <head>
+            link
+        </head>
+    </html>
+
+
+    syntax: 
+
+            selector{
+                property: value;
+            }
+
+            eg. h1{
+                color: red;
+            }
+
+    Selectors: 
+
+        1. universal selectors(*)
+            it matches every single element on the page.
+            *{
+
+            }
+        2.Element selector
+            h1{
+
+            }
+        2. ID selector
+            used to define the rules for a unique element.
+            #idname{
+                properties
+            }
+            eg.
+            #header{
+                ---
+            }
+            <div id = "header">
+            </div>
+        4.Class selector
+            It can be used to select any element that has a class attribute.
+                .className{
+                    properties
+                }
+                eg. 
+                .error{
+                    color: red;
+                }
+                <p class="error">--</p>
+        5.descendent selectors
+            ul.menu li a{
+
+            }
+
+        6. child selectors(>)
+            ul>li{
+
+            }
+        7. Grouping selectors
+            h1, h2, h3{
+                text-align = center;
+            }
+
+
+color
+background
+comments
+/* */
+
+box model: it describes how the rectangular boxes can be displayed in the web page
+    width, height, margin, padding, border
+
+    total width---- width +padding +margin
+    total height---- height + padding+ margin
+
+->margin: outside the border
+    margin: top right bottom left
+    eg. 
+    margin: 10px 20px 0px 50px;
+    margin: 10px(for top and bottom) 20px(for left and right);
+    margin-left: 20px;
+    margin:10px(for all);
+    margin:10px 5px 10px (t, r/l, b);
