@@ -7,27 +7,31 @@
     <style>
         *{
             margin: 0px auto; /*to align in the center*/
+            box-sizing: border-box;/* padding and margin applicable to on selected elements*/
         }
         .main{
             width: 90%;
-            background-color: cyan;
+            display: flex;
         }
         .left{
             width: 50%;
-            float: left;
+            /* float: left; */
             background-color: aqua;
+            padding: 5px;
         }
         .right{
             width: 50%;
-            float: right;
+            /* float: right; */
             background-color: blueviolet;
+            padding: 5px;
+            color: white;
         }
     </style>
 </head>
 <body>
     <div class="main">
-        <div class="left">first</div>
-        <div class="right">second</div>
+        <div class="left">First</div>
+        <div class="right">Second</div>
     </div>
 </body>
 </html>

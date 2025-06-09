@@ -1,2 +1,35 @@
 -> float: used to align intems inline
 float properties: left | right | none
+
+
+use flex instead of float
+
+-> Position in CSS: It defines how the elements are placed within a webpage.
+    Properties:
+    1.fixed
+    2.static
+    3.relative
+    4.absolute
+
+    ->static: It is a default position of an element.it does not accept any property like top, bottom, left, right.
+
+    ->relative: It places an element relative to its normal position.We can move it using top, left, right and bottom. 
+
+    ->absolute: 
+    ->fixed: to fix the position of an element.
+
+
+    ->Pseudo classes and elements
+        -> classes: target based on their current state or context(:)
+            :hover
+            :focus
+            :visited
+            :active
+        
+        ->element : style specific parts of an element(::)
+            ::before
+            ::after
+            ::first-letter
+            ::first-line
+            ::selection
+            ::placeholder
