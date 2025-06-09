@@ -1,0 +1,2 @@
+-> float: used to align intems inline
+float properties: left | right | none
