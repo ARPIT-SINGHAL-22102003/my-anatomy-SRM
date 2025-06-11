@@ -1,3 +1,32 @@
 -> GIT AND GITHUB
     Git is a DevOps tool used for source code management. It is a free and open-source version control system used to hendle small to very large projects efficiently. Git is used to tracking changes in the source code, enabling multiple developers to work together on non-linear development. 
     
+
+    -> 
+    git config --global user.name "arpit"
+    git config --global user.email "arpitsinghal@gmail.com"
+
+    -> git log: give the history of commits of the projects.
+
+    -> git diff: it means the changes between:              
+       1. working directory and staging area.
+       2. staging area and last commits
+        3. two commits
+
+    -> git reset : used to unstages or undoes commits.
+            git reset <file>
+
+    -> merge conflict: It occurs when merging branches and it requires manual intervention to resolve.
+
+            A merge conflict in Git happens when Git can't automatically reconcile differences between two branches during a merge. This usually occurs when:
+        - Two developers modify the same line in a file.
+        - A file is deleted in one branch but modified in another.
+        - Multiple branches introduce conflicting changes
+
+        Resolving Merge conflicts:
+            1. check with git status to list files with conflict.
+            2. Open conflicted file.(edit)
+            3. stage the resolved file(git add file)
+            4. commit the merge
+            
+
