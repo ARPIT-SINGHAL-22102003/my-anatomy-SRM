@@ -1,0 +1,108 @@
+-> Javascript: It is a programming language used to make web page interactive. It adds dynamic behaviour like validating forms, event handling, animations, ajax call, etc
+
+->where is js used?
+    => web development
+    => server side(node js)
+    => mobile apps(react native)
+    => game development
+
+-> why Javascript?
+    => lightweight and fast
+    => interpreted language
+    => client side language
+    => support OOPS and functional programming
+
+-> it is case sensitive
+->it is known as ECMAScript(ES)
+    => ES is the standard specification that defines how the javascript should work.
+     ** Javascript is the implementation of the ECMAScript standard.
+-> Old Javascript (Vanilla Javascript | ES5)
+-> New feature --> (ES 6 - 12)
+
+-> how javascript program is executed?
+    =>Load HTML page --> if there is any javascript code, the browser loads it and run javascript
+    => JS code is run by the javascript engines
+        ==> In every browser there is an javascript engines
+            V8 : chrome, edge
+            spidermonkey : firefox
+            JavascriptCore : safari
+        ==>Modern engines compile javascript into machine code for better performance (JIT)
+
+-> extension is .js
+-> code is write on <script> tag  
+-> How we run JS program
+    =>Internal
+        ==> <html>
+                <head>
+                    <script>
+                        JavaScript
+                    </script>
+                </head>
+                <body>
+                </body>
+            </html>
+    =>External
+        ==> first.js
+                JavaScript code
+            home.html
+            <html>
+                <head>
+                    <script src="first.js">
+                    </script>
+                </head>
+                <body>
+                </body>
+            </html>
+
+-> How we display JS Output?
+    =>document.write("--") // display in the browser
+    =>console.log("--"); //  display in console(debug our console)  // all javascript errors display in console
+    =>alert() : display message in dialog box
+
+->JavaScript is all about functions and events
+    => function : for reusability
+            //define the function
+            function function_name(){
+                
+            }
+            //call
+            function_name()
+    => events : perform a specific task in a program
+        ==> onclick, ondblclick, onmouseover, etc
+
+
+-> What is JavaScript Program : It is a set of statements that tell what to do. It can be just few line or 100s of files
+
+-> Statements : are the instruction that perform an action. It separated by semicolon(;) (In JavaScript it is optional)
+
+    eg: var x = 10;
+
+-> Keyword : reserved word that have a special meaning
+    var, if, for, while, dowhile, else, break, continue, function, return, null, true, false, undefined, etc.
+
+->JS comments : are used to describe the code
+    => single line : //
+    =>multipleline : /*  */ 
+->Variables : it is a temporary memory location which holds input data or it is a container for storing data.
+    rule:
+        => start with [a-zA-Z] or (_)
+        =>after that combination of [a-zA-Z0-9_$]
+        eg. 
+            var firstName
+            var first_name
+        
+    ->how we declare Variables
+        ==> var varname = value;(old approach, function-scoped, less preferred)
+    ->es6 introduce 
+        ==> let varname=value;(blocked scoped)
+                let age = 18;
+            const varname = value;(block scope, cannot be reassigned) (constant)
+
+-> Identifier: is the name we give to a variable, function or object
+
+**We cant declare datatype at a variable initialization time, it allocate at runtime as per the variable value.
+        typeof variable name: find the datatype of a variable.
+        types of datatype
+            -> primitive : string, number, boolean, null , undefined, symbol, bigint
+            -> non-primitive: object, arrays,
+                type of: object, array, null is object
