@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operators</title>
+</head>
+<body>
+    <h2> Marksheet  Examples</h2>
+    <script>
+        let name=prompt("Enter name : ")
+        let maths=parseInt(prompt("Enter maths marks:"))
+        let sst=parseInt(prompt("Enter maths sst:"))
+        let hindi=parseInt(prompt("Enter maths hindi:"))
+        let english=parseInt(prompt("Enter maths english:"))
+        let computer=parseInt(prompt("Enter maths computer:"))
+        let total=maths+sst+hindi+english+computer;
+        let percentage=total/5;
+        if(percentage>=80){
+            grade="A"
+        }
+        else if(percentage>=60 && percentage <80){
+            grade="B"
+        }
+        else if(percentage>=45 && percentage <60){
+            grade="C"
+        }
+        else{
+            grade="D"
+        }
+        document.write(`${name} Marksheet <br /> Math : ${maths} <br/> Sst : ${sst} <br/> Hindi :${hindi} <br/> English : ${english} <br/> Computer : ${computer} <br/> Total : ${total} <br/> Percantage : ${percentage} <br/> Grade : ${grade} `)
+    </script>
+</body>
+</html>

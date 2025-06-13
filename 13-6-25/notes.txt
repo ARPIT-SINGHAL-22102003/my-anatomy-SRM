@@ -1,0 +1,53 @@
+->operators: are symbols or keywords used to perform operations on variables and values.
+    1. Arithmetic operators: used for mathematical calculations
+    +, -, *, /, %, **, ++, --
+
+    2. Assignment operators: used assign the values
+    =, += , -=, /=, *=, %=, **=
+
+    3. comparison operators:
+    ==, ===, !=, !==, >, <, >=, <=
+    == : only check value
+    === : check both value and datatype (strict equal)
+
+    eg:
+        let a = 10;
+        let b = "10
+        if(a==b) (true)
+        if(a===b) (false)
+
+    4. logical operators:
+        &&, ||, !
+
+    5. bitwise operator: 
+        &, ^, ~, <<, >>, >>>(0filled right shift)  
+    
+    6. ternary operator
+        eg: let age= 23, 
+            let result = (Age>=18) ? "eligible":"bot elgible
+
+->input data ar runtime in JavaScript
+    -> prompt() : used to input data at runtime. It accept value in the string.
+        -> to convert string into number
+            parseInt()
+            parseFloat()
+            parseString()
+
+->condition or selection (return boolean)
+    ->if else
+    ->if else if else
+    ->nested if
+    -> switch case : task (create a calculator)
+
+-> backtick(``):template literal: within a backtick we can write string as well as number
+
+    eg: 
+        let name = "arpit" 
+        console.log(`the name is ${name}`);
+        //old way
+        console.log("the name is : " + name)
+
+->iteration(looping)
+    =>for
+    =>while
+    =>do while
